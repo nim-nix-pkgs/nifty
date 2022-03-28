@@ -11,7 +11,6 @@
   inputs.src-nifty-v1_0_1.ref   = "refs/tags/v1.0.1";
   inputs.src-nifty-v1_0_1.owner = "h3rald";
   inputs.src-nifty-v1_0_1.repo  = "nifty";
-  inputs.src-nifty-v1_0_1.dir   = "";
   inputs.src-nifty-v1_0_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
